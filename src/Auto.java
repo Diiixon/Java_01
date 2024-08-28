@@ -110,6 +110,10 @@ public class Auto {
         
         System.out.println(objAuto1.toString());
         
+        objAuto1.setModelo("Yaris");
+        System.out.println("Marca: " + objAuto1.getMarca());
+        System.out.println("Modelo: " + objAuto1.getModelo());
+        
         Auto objAuto2 = new Auto("VW", "Escarabajo", "Amarillo", "Mecanica", "Bencinero", 1981, 2, 1500);
         System.out.println("");
         System.out.println("Marca: " + objAuto1.getMarca());
